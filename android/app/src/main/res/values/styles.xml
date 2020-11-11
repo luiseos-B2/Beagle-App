@@ -1,0 +1,59 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/colorGray</item>
+        <item name="android:scrollbarThumbVertical">@color/colorGray</item>
+        <item name="android:scrollbarThumbHorizontal">@color/colorGray</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+    </style>
+
+    <style name="DesignSystem.Toolbar.Center" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/DesignSystem.Toolbar.TextAppearance</item>
+        <item name="backgroundColor">@color/colorPrimary</item>
+        <item name="centerTitle">true</item>
+    </style>
+
+    <style name="DesignSystem.Toolbar.TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DesignSystem.Text.Default" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="DesignSystem.Text.Description" parent="DesignSystem.Text.Default">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DesignSystem.Text.Title" parent="DesignSystem.Text.Default">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DesignSystem.Button.Screen" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorGray</item>
+    </style>
+
+    <style name="DesignSystem.Button.Default" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorGray</item>
+    </style>
+
+    <style name="DesignSystem.TextInput.Context" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@drawable/text_input_background</item>
+    </style>
+
+    <style name="DesignSystem.TextInput.Default" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="hintTextColor">@color/colorBlack</item>
+        <item name="android:background">@color/colorGray</item>
+    </style>
+
+</resources>
