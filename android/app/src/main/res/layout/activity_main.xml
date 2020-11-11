@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.beagleapp.view.activity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Beagle App"
+        style="@style/DesignSystem.Toolbar.Center"
+        app:titleTextColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_simple_beagle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/average_margin"
+        android:text="@string/tv_screen_simple"
+        app:layout_constraintEnd_toEndOf="@+id/btn_navigation_beagle"
+        app:layout_constraintStart_toStartOf="@+id/btn_navigation_beagle"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_home" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_navigation_beagle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/average_margin"
+        android:text="@string/tv_screen_with_navigation"
+        app:layout_constraintEnd_toEndOf="@+id/btn_context_beagle"
+        app:layout_constraintStart_toStartOf="@+id/btn_context_beagle"
+        app:layout_constraintTop_toBottomOf="@id/btn_simple_beagle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_context_beagle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_screen_with_context"
+        android:layout_margin="@dimen/average_margin"
+        app:layout_constraintTop_toBottomOf="@id/btn_navigation_beagle"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_screen_native_beagle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_screen_native_with_components_server_driven"
+        android:layout_margin="@dimen/average_margin"
+        app:layout_constraintTop_toBottomOf="@id/btn_context_beagle"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_screen_beagle_custom_components"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_screen_beagle_with_custom_components"
+        android:layout_margin="@dimen/average_margin"
+        app:layout_constraintTop_toBottomOf="@id/btn_screen_native_beagle"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_preview_beagle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_screen_with_preview"
+        android:layout_margin="@dimen/average_margin"
+        app:layout_constraintTop_toBottomOf="@id/btn_screen_beagle_custom_components"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

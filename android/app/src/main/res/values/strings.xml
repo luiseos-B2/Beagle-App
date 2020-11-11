@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Beagle App</string>
+    <string name="tv_screen_simple">Screen beagle simple</string>
+    <string name="tv_screen_with_navigation">Screen beagle with navigation</string>
+    <string name="tv_screen_with_context">Screen beagle with context</string>
+    <string name="tv_screen_with_preview">Screen beagle with preview</string>
+    <string name="tv_screen_native_with_components_server_driven">Screen native with components server driven</string>
+    <string name="tv_screen_beagle_with_custom_components">Screen beagle with custom components</string>
+    <string name="tv_this_screen_is_native">This screen is native</string>
+    <string name="tv_title_native_component">Sou componente Nativo!</string>
+</resources>
